@@ -23,14 +23,14 @@ params = helper.createSCNNDetectionParameters;
 
 % Specify the mini batch size as 8. Increase this value to speed up
 % detection time.
-miniBatchSize  = 8;
+miniBatchSize  = 16;
 
 % Specify the executionEnvironment as either "cpu", "gpu", or "auto".
 executionEnvironment = "auto";
 
 %% Detect in Video
 % Read the video.
-v = VideoReader('caltech_washington1.avi');
+v = VideoReader('skyTree.mp4');
 
 % Store the video start time.
 videoStartTime = v.CurrentTime;
