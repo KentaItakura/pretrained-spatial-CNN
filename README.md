@@ -3,7 +3,7 @@
 
 Spatial CNNとよばれる手法を用いて、運転動画から車線検出を行います。ここで得られる結果の例を以下に示します。自分のいるレーンの車線とその横の車線の合計４つの線が検出されています。こちらは車載カメラからの動画を入力とし、深層学習ネットワークを用いて車線の検出を行っています。本記事には、誤りや誤字を含んでいる可能性があります。もし気づかれた方は教えていただけますと幸いです。
 
-\matlabheading{![image_0.png](README_images/image_0.png)}
+![image_0.png](README_images/image_0.png)  
 
 動画出展：こちらの動画は、映像素材さまの「[車載動画　４K　夕方の東京スカイツリー【無料フリー動画素材】/japan free video](https://www.youtube.com/watch?v=8yH1EAren4E&list=PLHeCRliyeMikjd1njQA7gzqjiuC-WraR5&t=0s)」より、使わせていただきました。ありがとうございました。
 
